@@ -149,3 +149,15 @@ Preferir sempre o endereço direto da Anthropic ou do Coursera, **nunca o link d
 5. **Agente de RDO (candidato B): autoriza uma especificação de leitura no `rdo-simples` agora, em paralelo ao TR?** Recomendo **sim, só a especificação**. É barata, e o canal de venda já existe. Código, só depois.
 6. **Curso:** recomendo **você fazer só o 26 (1 h)** agora e o 16 parcial antes da decisão do Agent SDK. Equipe, só se ela passar a usar o Claude.
 7. **Proposta técnica para empreiteiras como produto?** Recomendo **não**. Continua como vantagem interna da FELK, como o próprio `Business-AI-Felktech/agente/README.md` já registra.
+
+## 8. Decisões do Felipe (21/11/2026)
+
+| # | Decisão | Execução |
+|---|---------|----------|
+| 1 | Guarda único: o que libera com `APROVADO FELK-AA-NNNN` | Feito, reforçado: a frase precisa estar numa mensagem digitada pelo Felipe (o hook lê o histórico da sessão). Hook de testes + CI. PRs Felk-Autopilot #12 e felk-ferramentas #65 |
+| 2 | API key para GitHub Action no rdo-simples | **Não aprovada** — fica fora |
+| 3 | Estado das rotinas no Radar | Feito: rota `/api/hook/estado/:rotina` (radar-felk #8) + Secretaria lê/grava. Depende de deploy |
+| 4 | Fluxo de propostas consolidado no Felk-Autopilot | Feito no repositório (verificador + normas + Etapa 5b). Corte da tarefa agendada pendente (`rotinas/propostas.md`) |
+| 5 | Spec do agente de RDO (Opus, esforço extra) | `Business-AI-Felktech/produto/spec-agente-rdo.md` |
+| 6 | Cursos: só o 26 (Claude Code in Action, grátis na Anthropic Academy) | Registrado. Demais descartados |
+| 7 | Proposta técnica para empreiteiras não vira produto | Registrado. Fica como vantagem interna da FELK |
